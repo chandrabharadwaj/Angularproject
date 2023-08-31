@@ -1,0 +1,12 @@
+*{
+    text-decoration: none;
+}
+.navbar{
+    background:crimson;font-family:calibri;padding-right:25px;padding-left:25px;
+}
+.navdiv{
+    display:flex;align-items:center;justify-content:space-between;
+}
+li{
+    list-style:none;display:inline-block;margin-left:25px;
+}

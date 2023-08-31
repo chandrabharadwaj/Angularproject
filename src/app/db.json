@@ -1,0 +1,48 @@
+{
+    "user":
+    [
+        {
+            "name":"sarath",
+       "position":"Developer",
+        "address":"Guntur",
+        "phoneNumber":"12121212"
+    },
+  {
+    "name":"Rakesh",
+    "position":"Junior Developer",
+   "address":"Vijayawada",
+    "phoneNumber":"2211334455"
+},
+
+    {
+        "name":"kiran",
+        "position":"Automation Tester",
+        "address":"Karimnagar",
+        "phoneNumber":"3322114422"
+    },
+
+   {
+    "name":"Sai",
+    "position":" Senior Developer",
+    "address":"Banglore",
+    "phoneNumber":"5544663322"
+},
+    {
+        
+        "name":"Rampavan",
+       "position":" Developer",
+        "address":"Chennai",
+        "phoneNumber":"3322114455"
+    },
+    
+    {
+        
+        "name":"Vishnu",
+       "position":"Manual Testing",
+        "address":"Tambaram",
+        "phoneNumber":"8976567896"
+    }
+
+
+    ]
+}

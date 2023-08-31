@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -6,14 +7,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
-
-  userID:string='';
-  password:string='';
-
-  login(){
-    console.log('UserID:',this.userID);
-    console.log('password:',this.password);
+  username:string|undefined;
+  password:string|undefined;
+  constructor(private router:Router){}
+  login()
+  {
+    if(this.username=='sarath@gmail.com'&& this.password=='sarath@123'){
+      this.router.navigate(['/dashboard']);
+    }
+    else
+    {
+      alert('Invaild Credentials');
+    }
+     
+    }
   }
- // path:string="../assets/th.jpg";
-
-}
